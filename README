@@ -1,10 +1,10 @@
 Figure 2a, 2b: Column 1: Pf, Column 2: C(Pf)
-Figure 2c, 2d: DHK, Exact, Husimi: Column 1: Time, Column 2: Population state 1, Column 3: Population state 2
+Figure 2c, 2d: DHK, Exact, NHWDE, Husimi: Column 1: Time, Column 2: Population state 1, Column 3: Population state 2
 Figure 2c, 2d: MQC: Column 1: Time, Column 2: SigmaZ(t) (Population state 1 - Population state 2)
 
 Figure 3a: MQC: Column 1: Time, Column 2: SigmaZ(t) (Population state 1 - Population state 2)
-Figure 3a: AMQC, AMQC SP, LSC: Column 1: Time, Column 2: Population state 1, Column 3: Population state 2
-Figure 3b: Exact, LSC, MQC: Column 1: Time, Column 2: Population state 1, Column 3: Population state 2
+Figure 3a: Exact, AMQC, AMQC SP, LSC: Column 1: Time, Column 2: Population state 1, Column 3: Population state 2
+Figure 3b: Exact, LSC, MQC, NHWDE: Column 1: Time, Column 2: Population state 1, Column 3: Population state 2
 Figure 3b: AMQC, AMQC SP: Column 1: Time, Column 2: SigmaZ(t) (Population state 1 - Population state 2)
 
 Figure 4a: PLDM Sym, PLDM Conventional, NHWDE Sym, NHWDE Conventional: Column 1: Time, Column 2: Population state 1, Column 3: Population state 2
@@ -14,7 +14,12 @@ Figure 5a,5b,5c,5d: Exact: Column 1: Time, Column 2: |1><1|, Column 3: |1><2| Co
 Figure 5a,5b,5c,5d: NHWDE, LSC: Column 1: Time, Column 2: |1><1|, Column 3: |2><2| Column 4: |1><2|
 Figure 5a,5b,5c,5d: AMQC SP: Column 1: Time, Column 2: SigmaZ(|1><1|-|2><2|), Column 3: |1><2|
 
-Figure 6a: DHK, NHWD(V1), NHWD(V2), NHWDE: Column 1: Time, Column 2: R(t)*|1><1|, Column 3: R(t)*|2><2|, Column 4: |1><1|, Column 5: |2><2|
-Figure 6a: LSC: Column 1: Time, Column 2: R(t)*|1><1|, Column 3: R(t)*|2><2|
-Figure 6b: NHWD(V1), NHWD(V2), NHWDE: Column 1: Time, Column 2: R(t)*|1><1|, Column 3: R(t)*|2><2|, Column 4: |1><1|, Column 5: |2><2|
+Figure 6a: DHK, NHWD(V1), NHWD(V2), NHWDE, LSC: Column 1: Time, Column 2: R(t)*|1><1|, Column 3: R(t)*|2><2|, Column 4: |1><1|, Column 5: |2><2|
+Figure 6b: DHK, NHWD(V1), NHWD(V2), NHWDE: Column 1: Time, Column 2: R(t)*|1><1|, Column 3: R(t)*|2><2|, Column 4: |1><1|, Column 5: |2><2|
 Figure 6b: LSC: Column 1: Time, Column 2: R(t)*|1><1|, Column 3: R(t)*|2><2|
+Figure 6c: NHWD(V1), NHWD(V2), NHWDE: Column 1: Time, Column 2: R(t)*|1><1|, Column 3: R(t)*|2><2|, Column 4: |1><1|, Column 5: |2><2|
+Figure 6c: LSC: Column 1: Time, Column 2: R(t)*|1><1|, Column 3: R(t)*|2><2|
+
+Figure 7a, 7b: DHK, NHWD(V1) Different Modes: Column 1: Time, Column 2: R(t)*|1><1|, Column 3: R(t)*|2><2|, Column 4: |1><1|, Column 5: |2><2|
+
+Figure 8a, 8b: DHK, NHWD(V2), NHWD(V3) Different Modes: Column 1: Time, Column 2: R(t)*|1><1|, Column 3: R(t)*|2><2|, Column 4: |1><1|, Column 5: |2><2|
